@@ -16,17 +16,19 @@ Using the slicing concept rotate the list
 ### Step 6: 
 ## Program:
 ```
-a=int(input())
-b=int(input())
-a=a+b
-b=a-b
-a=a-b
-print("Swapped values are:",a,b)
+def circulate():
+    
+     a=eval(input())
+     n=int(input())
+     a=a[n:]+a[:n]
+     print("After circulating the values are:",a)
 
 ```
 ## Output:
-![Screenshot 2023-05-30 192956](https://github.com/AnandhamoorthyKarthikeyan/Circulate-the-values-of-N-variables/assets/119475998/f4a7b32f-cf1b-4eb6-a32b-6746d76b52c7)
-![Screenshot 2023-05-30 192526](https://github.com/AnandhamoorthyKarthikeyan/Circulate-the-values-of-N-variables/assets/119475998/9cd21713-eafe-4ef4-a71b-a4f4ef165dec)
+![Screenshot 2023-05-30 193548](https://github.com/AnandhamoorthyKarthikeyan/Circulate-the-values-of-N-variables/assets/119475998/9756a9c4-2b60-4ce2-949f-d03cbdd3ee44)
+![Screenshot 2023-05-30 193612](https://github.com/AnandhamoorthyKarthikeyan/Circulate-the-values-of-N-variables/assets/119475998/8785faae-237d-4217-a48e-31bae56fdecd)
+![Screenshot 2023-05-30 193631](https://github.com/AnandhamoorthyKarthikeyan/Circulate-the-values-of-N-variables/assets/119475998/64d52edb-b3d2-407c-97e7-325219f62a65)
+
 
 ## Result:
 Thus the output was verified successfully!!

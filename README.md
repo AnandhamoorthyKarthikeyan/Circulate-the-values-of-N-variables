@@ -16,15 +16,17 @@ Using the slicing concept rotate the list
 ### Step 6: 
 ## Program:
 ```
-def circulate():
-    l=eval(input())
-    n=int(input())
-    l=l[n:]+l[:n]
-    print("After circulating the values are:",l)
+a=int(input())
+b=int(input())
+a=a+b
+b=a-b
+a=a-b
+print("Swapped values are:",a,b)
+
 ```
 ## Output:
-![Screenshot 2023-04-29 094412](https://user-images.githubusercontent.com/119475998/235283035-5cc69a3c-3170-45aa-98ec-e494989b5dc8.png)
-![Screenshot 2023-04-29 094430](https://user-images.githubusercontent.com/119475998/235283044-ad997655-028f-4686-849a-40e2d00842d6.png)
+![Screenshot 2023-05-30 192956](https://github.com/AnandhamoorthyKarthikeyan/Circulate-the-values-of-N-variables/assets/119475998/f4a7b32f-cf1b-4eb6-a32b-6746d76b52c7)
+![Screenshot 2023-05-30 192526](https://github.com/AnandhamoorthyKarthikeyan/Circulate-the-values-of-N-variables/assets/119475998/9cd21713-eafe-4ef4-a71b-a4f4ef165dec)
 
 ## Result:
 Thus the output was verified successfully!!
